@@ -81,3 +81,13 @@ void main() {
 Geralmente teremos importações relacionadas com o `material.dart`, pois o principal ponto benéfico é a compatibilidade mais evidente e numerosa com outras plataformas que o Material Design possui. 
 
 Ao contrário do `cupertino.dart`, que é feito seguindo o padrão Apple, que também é bem completo e responsivo, contudo ainda sim não tão compatível como o Material.
+
+# Assets
+
+Para poder usar os `assets` na aplicação, basta ir no arquivo `pubspec.yaml` e definir a configuração de `assets`, e daí é possível colocar os *assets* desejados.
+
+```yaml
+flutter:
+  assets:
+    - /lib/assets/images/diamond.png
+```
